@@ -5,9 +5,11 @@ This project was implemented for the course project for the Johns Hopkins Univer
 This document describes the data organizing process executed by the file "run_analysis.R".  The data are from cell phone accelerometer readings recorded from 30 participants while they were performing various activities (e.g., walking, standing, sitting).
 
 The data were originally downloaded from 
+
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 The data are described at 
+
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 After extracting the data files from the downloaded zip file, they are stored in the directory "UCI HAR Dataset" within the working directory.  The data set was split into training and testing subsets.  These subsets are found in "UCI HAR Dataset/train" and "UCI HAR Dataset/test" directories, respectively.  The following files are read by the "run_analysis.R" script, and the descriptions of their contents follow:
