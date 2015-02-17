@@ -33,7 +33,7 @@ numbers denoting the activities performed by the subjects for the testing data s
 The data in the directories "UCI HAR Dataset/test/Inertial Signals" and "UCI HAR Dataset/train/Inertial Signals" were not read by the "run_analysis.R" script because a later step in the project instructions calls for retaining only variables that are means and standard deviations of the measured variables.  There are no means or standard deviations in these two "Inertial Signals" directories, so they were excluded.
 
 
-The next sections of this document are headed by the corresponding "INSTRUCTION" for the project.
+The subsequent sections of this document are headed by the corresponding "INSTRUCTION" for the project.
 
 **INSTRUCTIONS:  1. Merges the training and the test sets to create one data set.**
 <br>
