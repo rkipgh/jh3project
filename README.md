@@ -1,4 +1,3 @@
-# jh3project
 February 2015
 
 This project was implemented for the course project for the Johns Hopkins University / Coursera "Getting and Cleaning Data" course.
