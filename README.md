@@ -12,14 +12,23 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 After extracting the data files from the downloaded zip file, they are stored in the directory "UCI HAR Dataset" within the working directory.  The data set was split into training and testing subsets.  These subsets are found in "UCI HAR Dataset/train" and "UCI HAR Dataset/test" directories, respectively.  The following files are read by the "run_analysis.R" script, and the descriptions of their contents follow:
 
-"UCI HAR Dataset/train/subject_train.txt"	subject ID numbers for training data set
-"UCI HAR Dataset/train/X_train.txt"		    measured variables for training data set
-"UCI HAR Dataset/train/y_train.txt"		    numbers denoting the activities performed by the subjects for the testing  
-                                          data set
-"UCI HAR Dataset/test/subject_test.txt"		subject ID numbers for testing data set
-"UCI HAR Dataset/test/X_test.txt"		      measured variables for testing data set
-"UCI HAR Dataset/test/y_test.txt"		      numbers denoting the activities performed by the subjects for the testing 
-                                          data set
+"UCI HAR Dataset/train/subject_train.txt"	
+subject ID numbers for training data set
+
+"UCI HAR Dataset/train/X_train.txt"		    
+measured variables for training data set
+
+"UCI HAR Dataset/train/y_train.txt"		    
+numbers denoting the activities performed by the subjects for the testing data set
+
+"UCI HAR Dataset/test/subject_test.txt"		
+subject ID numbers for testing data set
+
+"UCI HAR Dataset/test/X_test.txt"		      
+measured variables for testing data set
+
+"UCI HAR Dataset/test/y_test.txt"		      
+numbers denoting the activities performed by the subjects for the testing data set
 
 The data in the directories "UCI HAR Dataset/test/Inertial Signals" and "UCI HAR Dataset/train/Inertial Signals" were not read by the "run_analysis.R" script because a later step in the project instructions calls for retaining only variables that are means and standard deviations of the measured variables.  There are no means or standard deviations in these two "Inertial Signals" directories, so they were excluded.
 
